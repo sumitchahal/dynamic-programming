@@ -1,0 +1,6 @@
+HOW TO DO MATRIX MULTIPLICATION OF N MATIRICES?
+
+DP(L,R) = IF(L==R) return 0;
+
+          ELSE return (for int i=l;i<;r;i++ )
+                       min { dp(l,i) + dp(i+1,r) + a(l)*a(i+1)*a(r) };
